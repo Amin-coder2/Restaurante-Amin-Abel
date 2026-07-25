@@ -1,113 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mala Mia</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-menu">
+            <h1>Mala Mia</h1>
+        </div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#reservas">Reservas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
 
-    <link
-      rel="icon"
-      href="resources/favicon.ico"
-      type="image/x-icon"
-      sizes="96x96"
-    />
+    <main id="inicio">
+        <section id="menu">
+            <h2>Menú</h2>
 
-    <title>devChallenges.io | Minimal Blog Card</title>
+            <article>
+                <h3>La bandida</h3>
+                <p>Pan brioche, carne Angus cocinada en grasa de bacon, doble queso americano, bacon caramelizado con ron, BBQ de guayaba, cebolla y hongos deshidratados con topping de alioli de ajo rostizado</p>
+                <p>Precio: RD$650</p>
+            </article>
 
-   
-    <style>
-      * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+            <article>
+                <h3>El criminal</h3>
+                <p>Carne Angus sellada, laminas de churrasci hygisim crema de hongos salteados y pan brioche suave y dorado</p>
+                <p>Precio: RD$450</p>
+            </article>
 
-body {
-  min-height: 100vh;
-  background-color: #f5f5f5;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: sans-serif;
-}
+            <article>
+                <h3>Pio pio</h3>
+                <p>Jugosa pechuga de pollo empanizada y frita al dorado perfecto, servida en pan brioche con cebolla blanca, pepinillos, queso americano derretido y salsa especial.</p>
+                <p>Precio: RD$500</p>
+            </article>
+        </section>
 
-.card {
-  background-color: white;
-  border-radius: 16px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  padding: 16px;
-  max-width: 340px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
+        <section>
+            <h2>Cocteles</h2>
 
-img {
-  width: 100%;
-  border-radius: 12px;
-  object-fit: cover;
-  height: 200px;
-}
+            <article>
+                <h3>Sangria</h3>
+                <p>Coctel de fruta, Vino</p>
+                <p class="precio">$450</p>
+            </article>
 
-.tag {
-  background-color: #f0ebff;
-  color: #7c3aed;
-  border-radius: 999px;
-  padding: 4px 12px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  width: fit-content;
-}
+            <article>
+                <h3>Margarita</h3>
+                <p>Chinola, fresa, Coco, Limon</p>
+                <p class="precio">$350</p>
+            </article>
 
-h2 {
-  font-size: 1.2rem;
-  color: #1a1a1a;
-}
+            <article>
+                <h3>Long Island ice tea</h3>
+                <p>Vodka, ron blanco, tequila, triple sec, ginebra, coca cola y Limon</p>
+                <p class="precio">$550</p>
+            </article>
 
-p {
-  font-size: 0.9rem;
-  color: #555;
-  line-height: 1.6;
-}
+            <article>
+                <h3>Mojitosa</h3>
+                <p>Chinola, fresa, Coco, Limon</p>
+                <p class="precio">$450</p>
+            </article>
+        </section>
 
-hr {
-  border: none;
-  border-top: 1px solid #eee;
-}
+        <section id="reservas">
+            <h2>Reservas</h2>
+            <p>Para reservar una mesa, llámanos o escríbenos por nuestras redes sociales.</p>
+        </section>
+    </main>
 
-.author {
-  color: #333;
-  font-size: 0.9rem;
-}
+    <aside>
+        <h2>Horario y Ofertas</h2>
+        <p>Horario: Lunes a domingo de 10:00 AM a 10:00 PM.</p>
+        <p>Oferta: Los viernes hay un 10% de descuento en platos familiares.</p>
 
-.author-info {
-  font-size: 14px;
-  text-align: center;
-  margin-top: 24px;
-  color: rgb(55, 65, 81);
-}
+        <h3>Redes sociales</h3>
+        <ul>
+            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://www.tiktok.com" target="_blank">TikTok</a></li>
+        </ul>
+    </aside>
 
-.author-info a {
-  text-decoration: none;
-  color: #7c3aed;
-}
-    </style>
-  </head>
-  <body>
-    <div class="card">
-      <img src="./Cactus.jpg">
-      <span class="tag">Desing</span>
-        <h2>Embracing Minimalism</h2>
-        <p>from minimalist sculptures to minimalist paintings,this is blog will inspire you to appreciate beauty that lies in simplicity</p>
-        <hr>
-        <p class="author">Amin Abel Gil</p>
-    </div>
-    <div class="author-info">
-      Coded by <a href="https://github.com/Amin-coder2">Amin Abel Gil</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
-    </div>
-  </body>
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <p>© 2026 Restaurante El Buen Sabor. Todos los derechos reservados.</p>
+        <p>Dirección: Santo Domingo, República Dominicana</p>
+        <p>Teléfono: 809-000-0000</p>
+    </footer>
+
+</body>
 </html>

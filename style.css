@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Mozilla+Text:wght@200..700&display=swap');
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+    background-color: #141210;
+}
+
+.nav-menu h1 {
+    font-family: 'Mozilla text';
+    display: block;
+    color: white;
+}
+
+.nav-links {
+    font-family: 'Elms Sans';
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
