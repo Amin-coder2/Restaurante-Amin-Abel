@@ -1,54 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mala Mia</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Carta</a>
-            <a href="#">Contacto</a>
-        </nav>
-    </header>
-    <main>
-        <section class="platos">
-            <h1>Burges</h1>
-            <article>
-                <h3>Hamburguesa</h3>
-                <p class="description">Carne angus, queso muenster, bacon, salsa mala mía, side de papas.</p>
-            </article>
-            <article>
-                <h3>La chula</h3>
-                <p class="description">Pan brioche, carne 7oz., croqueta queso y puerro, bacon caramelizado, special mayo, lechuga.</p>
-            </article>
-            <article>
-                <h3>La montra</h3>
-                <p class="description">Pan brioche, 4 carnes (10 oz), 4 lonjas queso americano, cebolla caramelizada, salsa especial, side de papas</p>
-            </article>
-            <article>
-                <h3>Mala mia</h3>
-                <p class="description">Carne angus, ropa vieja, queso muenster, lechuga, bacon, salsa mala mia, side de papas</p>
-            </article>
-            <article>
-                <h3>la pampara</h3>
-                <p class="description">pan brioche, carne angus, envuelta en bacon, croqueta rellena de mozzarella con salsa especial.</p>
-            </article>
-        </section>
-    </main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <aside>
-        <h2 style="font-weight: bold;">Horarios</h2>
-        <p>Lunes a Viernes: 10:00 Am - 12:00 Pm</p>
-        <p>Sabado a Domingo: 1:00 pm - 12:00 Pm</p>
-    </aside>
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
 
-    <footer>
-        <h2>Redes sociales</h2>
-        <a href="#">Instagram</a>
-        <a href="#">Facebook</a>
-    </footer>
-</body>
+    <title>devChallenges.io | Minimal Blog Card</title>
+
+   
+    <style>
+      * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  max-width: 340px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  height: 200px;
+}
+
+.tag {
+  background-color: #f0ebff;
+  color: #7c3aed;
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  width: fit-content;
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: #1a1a1a;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+}
+
+.author {
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 24px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+  color: #7c3aed;
+}
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img src="./resources/Cactus.jpg">
+      <span class="tag">Desing</span>
+        <h2>Embracing Minimalism</h2>
+        <p>from minimalist sculptures to minimalist paintings,this is blog will inspire you to appreciate beauty that lies in simplicity</p>
+        <hr>
+        <p class="author">Amin Abel Gil</p>
+    </div>
+    <div class="author-info">
+      Coded by <a href="https://github.com/Amin-coder2">Amin Abel Gil</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+  </body>
 </html>
